@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TripDrop - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.7;
+            color: #1c1c19;
+            background: #fcf9f4;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            color: #aa2d32;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 32px;
+        }
+        h2 {
+            font-size: 20px;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #1c1c19;
+        }
+        p, li {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+        ul {
+            padding-left: 24px;
+            margin-bottom: 16px;
+        }
+        li { margin-bottom: 6px; }
+        a { color: #0058bc; }
+        .contact {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f0ede7;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>TripDrop Privacy Policy</h1>
+        <p class="last-updated">Last updated: April 10, 2026</p>
+
+        <p>TripDrop is a collaborative trip planning app that works without user accounts. Your privacy matters to us. This policy explains what data we collect, how we use it, and your rights.</p>
+
+        <h2>1. Data We Collect</h2>
+        <p>TripDrop is designed to collect as little data as possible. We do not require accounts, email addresses, or passwords tied to your identity.</p>
+        <ul>
+            <li><strong>Display name</strong> — A name you choose (up to 20 characters) shown to other participants in your trip session. This is not linked to your real identity.</li>
+            <li><strong>Trip content</strong> — Cards, comments, stops, and notes you add to a trip session. This is visible to all participants in that session.</li>
+            <li><strong>Location data</strong> — If you search for places within the app, your search queries are sent to OpenStreetMap (Nominatim) for geocoding. We do not track your physical location in the background.</li>
+            <li><strong>Device identifiers</strong> — A device fingerprint is generated for rate limiting purposes (preventing abuse). This is not used for tracking or advertising.</li>
+            <li><strong>Push notification token</strong> — If you enable notifications, your device's push token is stored to deliver trip updates. You can disable this at any time in your device settings.</li>
+            <li><strong>Email address (optional)</strong> — Only collected if you purchase a Premium subscription, solely for purchase receipt delivery.</li>
+        </ul>
+
+        <h2>2. How We Use Your Data</h2>
+        <ul>
+            <li>To provide the trip planning service — displaying your contributions to other session participants</li>
+            <li>To deliver push notifications about trip activity (new cards, comments)</li>
+            <li>To geocode place searches and display locations on the map</li>
+            <li>To enforce rate limits and prevent abuse</li>
+            <li>To process in-app purchases (if applicable)</li>
+        </ul>
+
+        <h2>3. Data Storage and Security</h2>
+        <p>Trip data is stored on <a href="https://supabase.com" target="_blank">Supabase</a> (hosted on AWS in EU-West-1). All data is transmitted over HTTPS. Session passwords are hashed using bcrypt before storage. Access tokens are hashed before storage — only you hold the original token on your device.</p>
+
+        <h2>4. Data Retention</h2>
+        <ul>
+            <li><strong>Active trips</strong> — Automatically deleted after 14 days of inactivity.</li>
+            <li><strong>Finished trips (free users)</strong> — Deleted 7 days after the trip is marked as finished.</li>
+            <li><strong>Finished trips (Premium users)</strong> — Retained until manually deleted.</li>
+        </ul>
+        <p>When a trip is deleted, all associated data (cards, comments, stops, participants) is permanently removed.</p>
+
+        <h2>5. Third-Party Services</h2>
+        <p>TripDrop uses the following third-party services:</p>
+        <ul>
+            <li><strong>Supabase</strong> — Database and backend infrastructure (<a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Google AdMob</strong> — Advertising on the free tier. AdMob may collect device identifiers and usage data for ad personalization. You can opt out via your device's ad settings. (<a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>)</li>
+            <li><strong>Google Play Billing</strong> — Processes in-app purchases (<a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&ldt=privacynotice" target="_blank">Privacy Notice</a>)</li>
+            <li><strong>OpenStreetMap / Nominatim</strong> — Place search and geocoding (<a href="https://osmfoundation.org/wiki/Privacy_Policy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Unsplash</strong> — Trip cover photos (<a href="https://unsplash.com/privacy" target="_blank">Privacy Policy</a>)</li>
+            <li><strong>Expo</strong> — Push notifications delivery (<a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a>)</li>
+        </ul>
+
+        <h2>6. Data Sharing</h2>
+        <p>We do not sell, trade, or share your personal data with third parties for marketing purposes. Data is only shared with the third-party services listed above as necessary to operate the app.</p>
+
+        <h2>7. Children's Privacy</h2>
+        <p>TripDrop is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has provided data through the app, please contact us and we will delete it.</p>
+
+        <h2>8. Your Rights</h2>
+        <p>Since TripDrop does not use accounts, most data is ephemeral and automatically deleted. You can:</p>
+        <ul>
+            <li>Delete your own cards and comments at any time within the app</li>
+            <li>Leave a trip session to remove your participant data</li>
+            <li>Clear locally stored data by uninstalling the app</li>
+            <li>Request deletion of any data by contacting us</li>
+        </ul>
+
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this policy from time to time. Changes will be reflected by the "Last updated" date at the top. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+        <div class="contact">
+            <h2>10. Contact</h2>
+            <p>If you have questions about this privacy policy or your data, contact us at:</p>
+            <p><strong>Email:</strong> <a href="mailto:manyappdev@gmail.com">manyappdev@gmail.com</a></p>
+        </div>
+    </div>
+</body>
+</html>
